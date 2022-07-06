@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Semáfaro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main>
+        <div>
+            <img src="./images/desligado.png" data-name="desligado" class="images" />
+        </div>
+        <div id='buttons'>
+            <button onclick="changeImg('vermelho.png', 'vermelho')">Vermelho</button>
+            <button onclick="changeImg('amarelo.png', 'amarelo')">Amarelo</button>
+            <button onclick="changeImg('verde.png', 'verde')">Verde</button>
+            <button onclick="automatic()">Automático</button>
+        </div>
+    </main> 
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
